@@ -1,0 +1,25 @@
+
+---
+
+# 🚀 Como subir no GitHub
+
+### Método 1 — Pelo site
+
+1. Acesse github.com  
+2. Clique em **New Repository**  
+3. Nome: `batalha-naval-c`  
+4. Crie os arquivos acima  
+5. Cole os códigos  
+6. Commit  
+
+---
+
+### Método 2 — Pelo terminal
+
+```bash
+git init
+git add .
+git commit -m "Jogo Batalha Naval em C"
+git branch -M main
+git remote add origin https://github.com/SEU_USUARIO/batalha-naval-c.git
+git push -u origin main
